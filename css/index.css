@@ -1,0 +1,216 @@
+@import "./style.css";
+
+.banner {
+    width: 100%;
+    height: 780px;
+    background-repeat: repeat;
+
+    background-size: auto;
+}
+.banner .layui-carousel-ind ul{
+    background-color: rgba(0,0,0,0);
+}
+.banner .layui-carousel img{
+    /*width: 100%;*/
+    height: 100%;
+}
+.banner .layui-carousel{
+    text-align:center;
+}
+
+.service .content{
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+
+    padding: 40px 0;
+}
+.service .content .ser-title{
+    font-size: 25px;
+    color: rgb(102, 102, 102);
+    padding: 0px 0 30px;
+}
+
+.service .content .ser-title .underline{
+    margin: 0 auto;
+}
+.service .content .list{
+    display: flex;
+    justify-content: center;
+}
+.service .content .list .item{
+    width: 203px;
+
+}
+.service .content .list .item + .item{
+    margin-left: 80px;
+}
+.service .content .list .item .img-box{
+    height: 80px;
+}
+.service .content .list .item .img-box img{
+    height: 100%;
+}
+.service .content .list .item .title{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 0 10px;
+    color: rgb(90, 90, 90)
+}
+.service .content .list .item .desc{
+    /*text-align: start;*/
+    font-size: 15px;
+}
+
+.about{
+    height: 502px;
+    padding: 60px 0 40px;
+}
+.about .content{
+    width: 1170px;
+    margin: 0 auto;
+}
+.about .content .left{
+    width: 425px;
+    display: inline-block;
+}
+.about .content .left .title{
+    font-size: 25px;
+    color: rgb(102, 102, 102);
+}
+
+.about .content .left .company{
+    font-size: 20px;
+    padding-top: 40px;
+}
+.about .content .left .desc{
+    padding-top: 20px;
+    font-size: 15px;
+    color: rgb(153, 153, 153);
+}
+
+.about .content .left .more-btn{
+    margin-top: 30px;
+}
+
+.about .content .right{
+    float: right;
+    top: 60px;
+    right: 20px;
+}
+.about .content .right img{
+    width: 590px;
+    height: 360px;
+}
+
+.show .main{
+    width: 1170px;
+    margin:  0 auto;
+}
+.show .main .show-title{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(102, 102, 102);
+}
+.show .main .show-title .underline{
+    margin:  0 auto;
+}
+.show .main .content .row{
+    display: flex;
+    justify-content: center;
+}
+.show .main .content .row .item{
+    width: 360px;
+    height: 370px;
+}
+.show .main .content .row .item + .item{
+    padding-left: 50px;
+}
+.show .main .content .row .item img{
+    width: 360px;
+}
+.show .main .content .btn-box{
+    width: 100%;
+    padding: 20px 0 40px;
+}
+.show .main .content .more-btn{
+    margin: 0 auto;
+    display: block;
+}
+
+.call {
+    background-color: rgb(57, 207, 204);
+    padding: 36px;
+}
+.call .content{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.call .content .left{
+    font-size: 25px;
+    line-height: 40px;
+    color: white;
+}
+.call .content .call-btn{
+    width: 118px;
+    border: 1px solid white;
+    border-radius: 6px;
+    background-color: rgb(57, 207, 204);
+}
+.call .content .call-btn a{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.advantage .main{
+    width: 1170px;
+    margin: 0 auto;
+}
+.advantage .a-title{
+    color: rgb(102, 102, 102);
+    font-size: 25px;
+    text-align: center;
+}
+.advantage .a-title .underline{
+    margin:  0 auto;
+}
+.advantage .content{
+    display: flex;
+    justify-content: space-between;
+}
+.advantage .content .left{
+    width: 725px;
+}
+.advantage .content .left img{
+    width: 100%;
+}
+.advantage .content .right{
+    margin-top: 84px;
+}
+.advantage .content .item{
+    display: flex;
+    width: 325px;
+}
+.advantage .content .item + .item{
+    margin-top: 40px;
+}
+.advantage .content .item .icon{
+    padding-top: 20px;
+}
+.advantage .content .item .icon img{
+    width: 38px;
+}
+.advantage .content .item .desc{
+    margin-left: 15px;
+    font-size: 15px;
+}
+.advantage .content .item .desc .name{
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(102, 102, 102);
+    padding-bottom: 12px;
+}

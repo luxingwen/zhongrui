@@ -1,0 +1,35 @@
+@import "./style.css";
+
+.info .main{
+    width: 1170px;
+    margin: 0 auto;
+}
+.info .main .title{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(102, 102, 102);
+}
+.info .main .title .underline{
+    margin:  0 auto;
+}
+.info .main .list{
+
+}
+.info .main .list .item{
+    height: 37px;
+
+    border-bottom: 1px dashed #eee;
+}
+.info .main .list .item a{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+.info .main #page-box{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.info .main #page-box .layui-laypage .layui-laypage-curr .layui-laypage-em {
+    background-color: rgb(57, 207, 204);
+}

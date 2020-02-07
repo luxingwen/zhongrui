@@ -1,0 +1,40 @@
+@import "./style.css";
+.contact{
+    padding: 20px 0 40px;
+}
+.contact .main{
+    width: 1170px;
+    margin: 0 auto;
+}
+.contact .main .title{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(102, 102, 102);
+}
+.contact .main .title .underline{
+    margin: 0 auto;
+}
+.contact .main .content{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact .main .left{
+    width: 554px;
+}
+.contact .main .left #map-box{
+    width: 554px;
+    height: 300px;
+}
+.contact .main .left .desc{
+    margin-top: 20px;
+}
+.contact .main .left .desc p + p{
+    margin-top: 10px;
+}
+.contact .main .right{
+    width: 550px;
+}
+.contact .main .right{
+
+}

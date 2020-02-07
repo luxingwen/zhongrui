@@ -1,0 +1,49 @@
+@import "./style.css";
+
+.area{
+    padding: 20px 0 40px;
+}
+.area .main{
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+.area .main .title{
+    font-size: 25px;
+    color: rgb(102, 102, 102);
+}
+.area .main .title .underline{
+    margin: 0 auto;
+}
+.area .main .list{
+    margin-top: 20px;
+}
+.area .main .list .row{
+    display: flex;
+    justify-content: space-between;
+}
+.area .main .list .row + .row{
+    margin-top: 40px;
+}
+.area .main .list .row .item{
+    text-align: center;
+    color: rgb(102, 102, 102);
+    width: 430px;
+}
+.area .main .list .row .item + .item{
+
+}
+.area .main .list .row .item img{
+    width: 430px;
+}
+.area .main .list .row .item .title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.area .main .list .row .item .desc{
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 25px;
+}
+

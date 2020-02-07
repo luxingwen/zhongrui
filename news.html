@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>众瑞网络科技公司</title>
+    <link rel="stylesheet" type="text/css" href="./assets/layui/css/layui.css"/>
+    <script type="text/javascript" src="./assets/layui/layui.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/news.css"/>
+</head>
+<body>
+<div class="header">
+    <div class="header-box">
+        <div class="logo">
+            <img src="http://101017.cn.veryhost.cn/uploadfile/image/0/0/860/2017-08/15034604329128.png">
+        </div>
+        <div class="nav">
+            <ul class="layui-nav" lay-filter="">
+                <li class="layui-nav-item"><a href="./index.html">首页</a></li>
+                <li class="layui-nav-item"><a href="./about.html">关于我们</a></li>
+                <li class="layui-nav-item"><a href="./service.html">服务范围</a></li>
+                <li class="layui-nav-item layui-this"><a href="./news.html">新闻动态</a></li>
+                <li class="layui-nav-item"><a href="contact.html">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="info">
+    <div class="main">
+        <div class="title">
+            新闻动态
+            <div class="underline"></div>
+        </div>
+        <div class="list">
+            <div class="item">
+                <a href="javascript:;">
+                    <span>谷歌和Twitter：禁止传播即时信息举措过时</span>
+                    <span>2017-08-23</span>
+                </a>
+            </div>
+            <div class="item">
+                <a href="javascript:;">
+                    <span>谷歌和Twitter：禁止传播即时信息举措过时</span>
+                    <span>2017-08-23</span>
+                </a>
+            </div>
+            <div class="item">
+                <a href="javascript:;">
+                    <span>谷歌和Twitter：禁止传播即时信息举措过时</span>
+                    <span>2017-08-23</span>
+                </a>
+            </div>
+            <div class="item">
+                <a href="javascript:;">
+                    <span>谷歌和Twitter：禁止传播即时信息举措过时</span>
+                    <span>2017-08-23</span>
+                </a>
+            </div>
+        </div>
+        <div id="page-box"></div>
+    </div>
+</div>
+<div class="footer">
+    <div class="content">
+        <div class="left">
+            <div class="links">
+                <span><a href="">网站首页</a> </span>
+                | <span><a href="">关于我们</a> </span>
+                | <span><a href="">服务范围</a> </span>
+                | <span><a href="">案例展示</a> </span>
+                | <span><a href="">新闻动态</a> </span>
+                | <span><a href="">联系我们</a> </span>
+            </div>
+            <div class="copyright">
+                Copyright © 2020, www.xxxxxxxxxx.com
+            </div>
+        </div>
+        <div class="qrcode">
+            <img src="./img/hh-life-qrcode.jpg">
+            <div class="alt">扫一扫关注公众号</div>
+        </div>
+        <div class="right">
+            <div class="company">红河州众瑞网络科技有限公司</div>
+            <div>
+                <i class="layui-icon layui-icon-cellphone"></i>
+                联系电话: 123455678
+            </div>
+            <div class="">
+                <i class="layui-icon layui-icon-email"></i>
+                联系邮箱: 123@mail.com
+            </div>
+            <div class="">
+                <i class="layui-icon layui-icon-location"></i>
+                联系地址: 云南省红河州个旧市
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript">
+    layui.use(['laypage'], function () {
+        var laypage = layui.laypage;
+
+        laypage.render({
+            elem: 'page-box',
+            count: 10,
+            limit: 5,
+            prev: '<<',
+            next: '>>'
+        })
+    })
+</script>
+</html>

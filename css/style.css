@@ -1,0 +1,111 @@
+body{
+    overflow-x:hidden;
+}
+.header{
+    background-color: white;
+
+}
+.header .header-box{
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0;
+}
+.header .header-box > div{
+    height: 40px;
+
+}
+.header .header-box .nav{
+    /*margin-left: 400px;*/
+    width: 720px;
+}
+.header .header-box .nav .layui-nav{
+    display: flex;
+    padding: 0;
+    background-color: white;
+
+}
+.header .header-box .nav .layui-nav li{
+    margin-right: 40px;
+}
+.header .header-box .nav .layui-nav a{
+    color: black;
+    font-size: 16px;
+    line-height: 40px;
+    width: 80px;
+    text-align: center;
+    padding: 0;
+}
+.header .header-box .nav .layui-nav .layui-this a{
+    color: white;
+    background-color: rgb(57, 207, 204);
+    font-weight: bold;
+}
+
+.header .header-box .nav .layui-nav .layui-this:after{
+    /*取消layui的选中样式*/
+    height: 0;
+
+}
+
+.footer{
+    background-color: rgb(57, 207, 204);
+    padding: 16px 0;
+}
+.footer .content{
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    color: white;
+}
+.footer .content a{
+    color: white;
+}
+.footer .content .left{
+    width: 520px;
+    margin-top: 30px;
+}
+.footer .content .left .links{
+    font-weight: bold;
+    font-size: 18px;
+}
+.footer .content .left .copyright{
+    text-align: center;
+    margin-top: 20px;
+}
+.footer .content .qrcode{
+    text-align: center;
+}
+.footer .content .qrcode img{
+    width: 100px;
+}
+.footer .content .right .company{
+    font-size: 15px;
+}
+.footer .content .right > div + div{
+    margin-top: 10px;
+}
+
+/*标题下划线*/
+.underline{
+    width: 60px;
+    height: 14px;
+    border-bottom: 1px solid rgb(57, 207, 204);
+}
+/*更多按钮*/
+.more-btn {
+    width: 120px;
+    height: 40px;
+
+    background-color: rgb(57, 207, 204);
+    border-radius: 6px;
+    border: 0;
+}
+.more-btn a{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
